@@ -1,0 +1,42 @@
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+.menu1{
+      position: fixed;
+      font-family: fantasy;
+      margin-top: 0px;
+      top: 0px;
+      cursor: pointer;
+      z-index: 10;
+      background: white;
+      width: 100%;
+}
+links{
+       display: inline;
+       color: azure;
+       padding-left: 8px;
+       padding-right: 8px;
+       font-family: fantasy;
+       font-size: 20px;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.links:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
